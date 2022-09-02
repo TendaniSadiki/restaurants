@@ -16,12 +16,12 @@ export default function Home() {
 }
 const styles = StyleSheet.create({
     homeContainer: {
-      backgroundColor: '#000',
+ 
       flex:1,
     
     },
     navBar: {
-        backgroundColor: 'blue',
+       
         height:80
       },
       Bar: {
