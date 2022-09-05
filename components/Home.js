@@ -21,7 +21,7 @@ export default function Home() {
             <FaUser  style={styles.User} />
         </View>
         <View style={styles.Search}>
-        <FaSearch/>
+        <FaSearch  style={styles.SearchIcon}/>
         <TextInput style={styles.SearchInput} placeholder="Search"></TextInput>
         </View>
     </View>
@@ -79,7 +79,19 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor:"#E6E7E9"
+        backgroundColor:"#E6E7E9",
+        
+        marginTop:-15
     
-      }
+      },
+      SearchIcon:{
+       zIndex:1,
+       marginLeft:-140,
+    
+      },
+      SearchIcon:{
+        zIndex:1,
+        marginLeft:-140,
+     
+       },
   });
