@@ -80,8 +80,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor:"#E6E7E9",
+        marginTop:-15,
+        paddingLeft: 8,
+       
         
-        marginTop:-15
     
       },
       SearchIcon:{
