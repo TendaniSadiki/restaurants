@@ -1,10 +1,10 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TextInput } from 'react-native';
 import { FaBars } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
 import { FaSearch } from 'react-icons/fa';
 import { FaLocationArrow } from 'react-icons/fa';
-import { TextInput } from 'react-native-web';
+
 
 
 export default function Home() {
